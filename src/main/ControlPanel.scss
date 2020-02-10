@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+html{
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+html, body {
+    height: 100%;
+    color: #4d4d4d;
+    width: 100%;
+
+    a{
+        color: #4d4d4d;
+    }
+
+}
+
+ #root {
+
+    height: 100%;
+    > div  {
+        height: 100%;
+        > div  {
+            height: 100%;
+        }
+    }
+
+
+}
+
+.control-panel__nav{
+    padding: 10px;
+}
+
+.control-panel{
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    height: 100%;
+
+
+    &__nav-list {
+        display: flex;
+        flex-direction: column;
+        min-width: 150px;
+        a {
+            text-decoration: none;
+            margin-top: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+         
+
+        }
+    }
+
+}

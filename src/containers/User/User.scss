@@ -1,0 +1,72 @@
+.user-section{
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+
+    .user-page-info-container{
+        background-color: white;
+       
+        h2{
+            border-bottom: 1px solid #c7c7c7;
+            text-transform: uppercase;
+            font-size: 18px;
+            padding: 20px;
+        }
+        >div{
+            padding: 20px;
+
+        }
+        .user-bio{
+            line-height: 25px;
+
+        }
+    }
+    .section-wrapper{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .user-page-header{
+        padding-bottom: 40px;
+      
+
+        button{
+            margin-right: 20px;
+        }
+
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .line-wrapper{
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        .name{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            
+        }
+
+        >div{
+            flex: 1 1 50%;
+            margin-right: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    .user-page-info{
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        >div {
+            flex: 1 0 50%;
+        }
+    }
+}

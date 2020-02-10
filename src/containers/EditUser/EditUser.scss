@@ -1,0 +1,168 @@
+.edit-user-section{
+    width: 100%;
+    padding: 20px;
+    
+    h1{
+        text-align: center;
+    }
+
+    .edit-user-header{
+        padding-bottom: 40px;
+
+    }
+
+    .edit-user-body{
+        background-color: white;
+        padding: 20px;
+
+
+    }
+
+
+    input {
+
+        padding-right: calc(1.5em + .75rem);
+        background-repeat: no-repeat;
+        background-position: right calc(.375em + .1875rem) center;
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+
+
+        &.invalid{
+            border-color: #dc3545;
+            background-image: url('../../assets/exclamation-circle.svg');
+        }
+
+        &.valid{
+            border-color: #28a745;
+            background-image: url('../../assets/check.svg');
+        }
+     
+
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: 18px;
+        padding: 9px 36px 2px 12px;
+        color: #585858;
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+
+    }
+
+    // .profecion,.biography {
+    //     display: block;
+    // }
+
+    .edit-user-container{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    form{
+
+        button{
+            box-shadow: none
+        }
+        .invalid-feedback{
+            color: red;
+            font-size: 14px;
+            margin-top: 9px;
+        }
+
+        textarea{
+            overflow: hidden;
+            resize: vertical;
+            min-height: 50px;
+
+
+            padding-right: calc(1.5em + .75rem);
+            background-repeat: no-repeat;
+            background-position: right calc(.375em + .1875rem) center;
+            background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    
+    
+            &.invalid{
+                border-color: #dc3545;
+                background-image: url('../../assets/exclamation-circle.svg');
+            }
+    
+            &.valid{
+                border-color: #28a745;
+                background-image: url('../../assets/check.svg');
+            }
+        }
+
+
+        >div, >label{
+            margin-bottom: 25px;
+        }
+
+        >div:last-child{
+            margin-bottom: 0px;
+        }
+
+        input, select, textarea{
+            margin-top: 10px;
+            line-height: 25px;
+            font-size: 18px;
+            padding: 9px 36px 2px 12px;
+            color: #585858;
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+
+        }
+
+        select{
+            padding: 9px 36px 2px 10px;
+        }
+    }
+
+    label{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .name-wrapper{
+        display: flex;
+        label:first-child{
+            margin-right: 20px;
+        }
+     
+    }
+
+    .date-picker{
+        display: flex;
+
+        .date-picker-container{
+            margin-top: 10px;
+            input {
+                margin-top: 0px;
+        
+               }
+        }
+      
+       
+     
+     
+    }
+
+
+    .submit-section{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 200px;
+
+        }
+    }
+
+    .is-active{
+        flex-direction: row;
+        input{
+            margin-left: 20px;
+            margin-top: 1px;
+            width: 17px;
+            height: 17px;
+        }
+    }
+}

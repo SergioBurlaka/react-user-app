@@ -1,0 +1,86 @@
+
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    // border-bottom: 1px solid #c7c7c7;
+    border-radius: 4px;
+  }
+  .Modal:not(:focus){
+    border-bottom: 1px solid #c7c7c7;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a8a8a8ad;
+
+  }
+
+  .modal-content{
+    color: #4d4d4d;
+    width: 325px;
+
+    .header{
+        padding-bottom: 20px;
+        font-size: 20px;
+        border-bottom: 1px solid #c7c7c7;
+        position: relative;
+
+        svg{
+            color: #777777;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 16px;
+
+        }
+        svg:hover{
+            color: #4d4d4d;
+        }
+    }
+
+    .body{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #c7c7c7;
+    }
+
+    .footer{
+        padding-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+
+        button{
+            margin-left: 20px;
+            box-shadow: none;
+        }
+
+        button:first-child{
+            background-color: #d4d4d4;
+            border: #d4d4d4;
+        }
+        button:first-child:hover{
+            background-color: #c2c2c2;
+            border: #c2c2c2;
+        }
+        button:last-child{
+            background-color: #ff1919;
+            border: #ff1919;
+        }
+        button:last-child:hover{
+            background-color: #f51313;
+            border: #f51313;
+        }
+    }
+}

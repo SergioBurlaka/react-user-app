@@ -1,0 +1,32 @@
+
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    // border-bottom: 1px solid #c7c7c7;
+    border-radius: 4px;
+    outline: none;
+
+  }
+  .Modal:not(:focus){
+    border-bottom: 1px solid #c7c7c7;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a8a8a8ad;
+    outline: none;
+
+  }
+
